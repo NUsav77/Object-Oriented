@@ -18,6 +18,7 @@ class WordFinder:
     def random(self):
         print(random.choice(WordFinder.word_list))
 
+
 wr = WordFinder('words.txt')
 wr.random()
 
